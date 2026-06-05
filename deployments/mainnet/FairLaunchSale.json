@@ -1,0 +1,29 @@
+{
+  "name": "FairLaunchSale",
+  "contractName": "FairLaunchSale",
+  "address": "0xce03e154329e1d962667D5B51d4eE2aCc543AA25",
+  "chain": "mainnet",
+  "chainId": 1,
+  "deployTx": "0x9aa690f1e7760a4a045e3d4e61a5e86e43efc4a1cc7de2c80ea22adf575b99aa",
+  "deployBlock": 24656470,
+  "deployer": "0x9C9598CD02E083A3384E212006cDfCffbcC4E469",
+  "constructorArgs": [
+    {
+      "name": "_rateToken",
+      "type": "address",
+      "value": "0x14969077E80B0696aCC89db8D1ad2E1dC3a175E6",
+      "note": "RATEToken (RatingCountAI) mainnet address"
+    },
+    {
+      "name": "_uniswapRouter",
+      "type": "address",
+      "value": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+      "note": "Uniswap V2 Router 02 (canonical mainnet)"
+    }
+  ],
+  "constructorArgsRaw": "0x00000000000000000000000014969077e80b0696acc89db8d1ad2e1dc3a175e60000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+  "compiler": "v0.8.30+commit.73712a01",
+  "optimizer": { "enabled": true, "runs": 200 },
+  "evmVersion": "paris",
+  "verification": "https://etherscan.io/address/0xce03e154329e1d962667D5B51d4eE2aCc543AA25#code"
+}
